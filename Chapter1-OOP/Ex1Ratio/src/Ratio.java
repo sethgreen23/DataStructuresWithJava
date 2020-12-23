@@ -60,7 +60,7 @@ class Ratio{
 	    Ratio r = new Ratio(5,8);
 	    System.out.println("The ratio of 5 per 8 :"+r+"\nIt has a value of: "+r.value());
 	    System.out.println();
-	    Ratio r2 = new Ratio(5,8);
+	    Ratio r2 = new Ratio(10,16);
 	    System.out.println("The ratio of 5 per 8 :"+r2+"\nIt has a value of: "+r2.value()+"\nIs "+r+" is equal to "+r2+" :"+r.equals(r2));
 	    System.out.println();
 	    Ratio r3 = new Ratio(3,16);

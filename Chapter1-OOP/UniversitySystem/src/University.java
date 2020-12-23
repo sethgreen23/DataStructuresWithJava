@@ -10,16 +10,16 @@ class University{
      */
     private static class Departement{
     	/* 
-	    	When a class A contains references to a class B whose
-			instances exist and are accessible outside of A, we say that A
-			is an aggregation of B. For example, in a university software
-			system, a Department class would contain references to
-			Professor objects who are members of the department, but
-			who also exist outside the department. In fact, a professor
-			could be a member of two different departments. If A is an
-			aggregation of B, we say that an A object “has a” B object.
-			For example, a department has a professor.this is achieved by
-			making the Departement class an inner class of the University class
+    	When a class A contains references to a class B whose
+		instances exist and are accessible outside of A, we say that A
+		is an aggregation of B. For example, in a university software
+		system, a Department class would contain references to
+		Professor objects who are members of the department, but
+		who also exist outside the department. In fact, a professor
+		could be a member of two different departments. If A is an
+		aggregation of B, we say that an A object “has a” B object.
+		For example, a department has a professor.this is achieved by
+		making the Departement class an inner class of the University class
     	 */
         public final String name;
         private Set<Professor> members;
